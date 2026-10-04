@@ -1,0 +1,24 @@
+{
+  "productSet": [{
+    "product": {
+      "name": "Example custom product",
+      "category": {"id": "REPLACE_WITH_LEAF_CATEGORY_ID"},
+      "parameters": [
+        {"id": "REPLACE_WITH_REQUIRED_PRODUCT_PARAMETER_ID", "values": ["REPLACE_WITH_VALUE"]}
+      ],
+      "images": ["https://example.com/replace-with-real-product-photo.jpg"]
+    }
+  }],
+  "parameters": [
+    {"id": "REPLACE_WITH_REQUIRED_OFFER_PARAMETER_ID", "valuesIds": ["REPLACE_WITH_DICTIONARY_VALUE_ID"]}
+  ],
+  "sellingMode": {
+    "format": "BUY_NOW",
+    "price": {"amount": "49.99", "currency": "PLN"}
+  },
+  "stock": {"available": 1},
+  "description": {
+    "sections": [{"items": [{"type": "TEXT", "content": "<p>Describe your product here.</p>"}]}]
+  },
+  "delivery": {"shippingRates": {"id": "REPLACE_WITH_SHIPPING_RATE_ID"}}
+}

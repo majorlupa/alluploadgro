@@ -1,0 +1,16 @@
+# Credentials and local state
+.env
+.env.*
+!.env.example
+.allegro/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.tmp
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db

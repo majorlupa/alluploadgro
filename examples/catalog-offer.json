@@ -1,0 +1,8 @@
+{
+  "productSet": [{"product": {"id": "REPLACE_WITH_SANDBOX_PRODUCT_ID"}}],
+  "sellingMode": {
+    "format": "BUY_NOW",
+    "price": {"amount": "49.99", "currency": "PLN"}
+  },
+  "stock": {"available": 1}
+}

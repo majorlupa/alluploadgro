@@ -1,0 +1,12 @@
+services:
+  allegro:
+    build: .
+    image: alluploadgro:local
+    environment:
+      ALLEGRO_CLIENT_ID: ${ALLEGRO_CLIENT_ID:-}
+      ALLEGRO_CLIENT_SECRET: ${ALLEGRO_CLIENT_SECRET:-}
+    volumes:
+      - allegro-data:/data
+      - ./examples:/offers:ro
+volumes:
+  allegro-data:
