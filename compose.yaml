@@ -1,7 +1,9 @@
 services:
   allegro:
+    # Pull the published image with `docker compose pull`, or build the local
+    # source with `docker compose build`. Compose does the right thing by default.
+    image: ghcr.io/majorlupa/alluploadgro:latest
     build: .
-    image: alluploadgro:local
     environment:
       ALLEGRO_CLIENT_ID: ${ALLEGRO_CLIENT_ID:-}
       ALLEGRO_CLIENT_SECRET: ${ALLEGRO_CLIENT_SECRET:-}
